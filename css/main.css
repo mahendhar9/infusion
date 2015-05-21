@@ -365,6 +365,11 @@ p {
 	height: 350px;
 }
 
+.quote-arrow {
+	position: absolute;
+	top: 45%;
+}
+}
 
 .item blockquote {	
 	font-size: 25px;

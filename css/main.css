@@ -367,8 +367,10 @@ p {
 
 .quote-arrow {
 	position: absolute;
-	top: 45%;
+	top: 10%;
+	height: 100%;
 }
+
 
 
 .item blockquote {	

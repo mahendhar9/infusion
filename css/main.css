@@ -371,6 +371,17 @@ p {
 	height: 100%;
 }
 
+.quote-arrow {
+	position: absolute;
+	top: 10%;
+	height: 100%;
+}
+
+.left-arrow, .right-arrow {
+	position: absolute;
+	top: 35%;
+}
+
 
 
 .item blockquote {	

@@ -21,6 +21,7 @@
 
 body {
 	font-family: 'Sintony', sans-serif;
+	position: relative;
 }
 
 .navbar-toggle .icon-bar {
@@ -42,12 +43,13 @@ p {
 	/*width:20% ;*/
 	background-color: #63C6AE;
 	float: left;
-	padding: 20px 50px 20px 90px;
+	padding: 20px 50px 10px 90px;
 }
 
 .header-right {
 	/*width: 80%;*/
 	background: #ffffff;
+	padding-bottom: 4px;
 }
 
 
@@ -61,11 +63,15 @@ p {
 	color: #777;
 }
 
-.nav>li>a:hover, .nav>li>a:focus {
+.nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active {
 	color : #63C6AE;
 	background-color: #fff;
 }
 
+.nav>li.active>a {
+	color : #63C6AE;
+	background-color: #fff;
+}
 
 .navbar-nav>li>a {
 	padding-left: 15px;
@@ -123,7 +129,7 @@ p {
 	left: 47%;
 }
 
-@media (max-width:1280px) {
+@media (max-width :1280px) {
 	.arrow img {
 		width: 72%;
 	}
@@ -313,7 +319,9 @@ p {
 	}
 }
 
-
+.carleft img {
+	margin:0 auto;
+}
 
 .topmargin {
 	margin-top: 10%;
@@ -392,8 +400,6 @@ p {
 	position: absolute;
 	top: 50%;
 }
-
-
 
 .item blockquote {	
 	font-size: 25px;

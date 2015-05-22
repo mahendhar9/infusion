@@ -102,6 +102,7 @@ p {
 
 .heading-info a {
 	font-size: 18px;
+	background-color: #000;
 	color: #fff;
 	border: 3px solid #777;
 	border-radius: 5px;
@@ -138,7 +139,7 @@ p {
 
 
 .posts-space {
-	padding: 0;
+	padding: 7px;
 	border: 2px solid #f2eded;
 }
 

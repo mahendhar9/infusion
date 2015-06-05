@@ -28,6 +28,10 @@ body {
     background-color: black;
 }
 
+#home {
+	margin-top: 60px;
+}
+
 .home-bg {
 	background-image: url("../img/background.png");
 	background-size: cover;
